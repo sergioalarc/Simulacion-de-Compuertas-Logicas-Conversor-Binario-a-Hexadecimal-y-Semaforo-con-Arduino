@@ -45,9 +45,12 @@ El objetivo es comprender el comportamiento de sistemas digitales mediante entra
 Se simulan las compuertas AND, OR y NOT mediante dos entradas (A y B) y tres LEDs como salidas.
 
 ### Funcionamiento
-- AND: se activa únicamente cuando A y B están en estado HIGH  
-- OR: se activa cuando al menos una entrada está en estado HIGH  
-- NOT: invierte el valor de la entrada A  
+- AND: se activa únicamente cuando A y B están en estado HIGH
+- OR: se activa cuando al menos una entrada está en estado HIGH
+<img width="1528" height="635" alt="AND, OR y NOT (and)" src="https://github.com/user-attachments/assets/bcd68eca-2d00-493f-92e8-5355446bd894" />
+- NOT: invierte el valor de la entrada A
+<img width="1528" height="635" alt="AND, OR y NOT (not)" src="https://github.com/user-attachments/assets/73b826f0-e79d-4fdf-9b52-97cfc1b07376" />
+Link: https://www.tinkercad.com/things/0aGrGsCVwd1-and-or-y-not?sharecode=JwMrtHPNC28uOwOgErkmYXutu81OBwd8Icf339_dtA4
 
 ---
 
@@ -55,12 +58,15 @@ Se simulan las compuertas AND, OR y NOT mediante dos entradas (A y B) y tres LED
 
 ### Descripción
 Se utiliza un DIP switch de 4 bits para ingresar un número binario, el cual es interpretado por Arduino y mostrado en un display de 7 segmentos en formato hexadecimal (0–F).
+<img width="1528" height="635" alt="Conversor Binario a Hexadecimal (A)" src="https://github.com/user-attachments/assets/bade98f4-7ef7-40f7-9309-b79c4ac2a698" />
 
 ### Funcionamiento
 - Cada switch representa un bit (b0–b3)  
 - Se utiliza configuración pull-down  
 - El valor se convierte a decimal y luego a hexadecimal  
-- El resultado se muestra en el display mediante activación de segmentos  
+- El resultado se muestra en el display mediante activación de segmentos
+Link: https://www.tinkercad.com/things/2MQg0y2xCoO-conversor-binario-a-hexadecimal?sharecode=62n05DCqeGau_1AwcDduFM_6MCXRIYSMc1Dm8obiorw 
+<img width="1528" height="635" alt="Conversor Binario a Hexadecimal (F)" src="https://github.com/user-attachments/assets/bde95067-6747-41a5-9e87-7596a326de9b" />
 
 ---
 
@@ -71,11 +77,15 @@ Simulación de un sistema de semáforo con tres LEDs y tiempos definidos.
 
 ### Secuencia
 Verde → Amarillo → Rojo → Amarillo → Verde
+<img width="1528" height="635" alt="Semaforo (1)" src="https://github.com/user-attachments/assets/16291a50-a40a-4485-a64d-f7d73d34b23f" />
 
 ### Tiempos
 - Verde: 5 segundos  
 - Amarillo: 2 segundos  
-- Rojo: 5 segundos  
+- Rojo: 5 segundos
+
+Link: https://www.tinkercad.com/things/93x5paBOZNU-semaforo?sharecode=W-hDnMCTzTY6zWAXv8GzKIaL5_TZIV7WGRHkC6D4erc
+<img width="1528" height="635" alt="Semaforo (2)" src="https://github.com/user-attachments/assets/46cf6b7e-728d-4cf7-9590-fcc73bf33694" />
 
 ---
 
